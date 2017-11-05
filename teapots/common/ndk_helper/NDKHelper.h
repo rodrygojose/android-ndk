@@ -30,7 +30,8 @@
  * - Provide handy utility functions for NDK development
  * - Make NDK samples more simpler and readable
  */
-#include "gl3stub.h"    // GLES3 stubs
+//#include "gl3stub.h"    // GLES3 stubs
+#include <GLES3/gl32.h> // TODO: only support gl3
 #include "GLContext.h"  // EGL & OpenGL manager
 #include "shader.h"     // Shader compiler support
 #include "vecmath.h"  // Vector math support, C++ implementation n current version

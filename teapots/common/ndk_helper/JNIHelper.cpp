@@ -22,7 +22,8 @@
 #include <iostream>
 
 #include <EGL/egl.h>
-#include <GLES2/gl2.h>
+//#include <GLES2/gl2.h>
+#include <GLES3/gl32.h> // TODO: only support gl3.2
 
 namespace ndk_helper {
 

@@ -15,7 +15,8 @@
  */
 #include <cstdlib>
 #include <EGL/egl.h>
-#include <GLES2/gl2.h>
+//#include <GLES2/gl2.h>
+#include <GLES3/gl32.h> // TODO: only support gl3.2
 
 #include "shader.h"
 #include "JNIHelper.h"
